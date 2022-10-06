@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="300"
+   viewBox="0 0 512 300"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:export-filename="bitmap.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       d="M 475.92546,0.341485 H 36.914485 C 15.959943,0.341485 8.1806246e-7,17.302735 8.1806246e-7,37.255965 V 262.74545 C 8.1806246e-7,283.7 16.961232,299.65994 36.914485,299.65994 H 170.6098 c 10.97542,0 20.95454,-5.98558 24.94388,-15.96522 l 29.93315,-74.83028 c 11.97128,-25.93989 48.89172,-24.94387 59.86634,0.99588 l 25.93988,72.8343 c 3.98866,9.97952 13.96792,16.96125 24.94386,16.96125 h 138.68858 c 20.95454,0 36.91449,-16.96125 36.91449,-36.9145 V 38.255845 C 513.83689,17.301305 496.87606,0.340055 475.92149,0.340055 Z M 146.67385,214.85369 c -31.93049,0 -56.874346,-25.93987 -56.874346,-56.87432 0,-30.92919 25.939886,-56.87435 56.874346,-56.87435 30.92915,0 56.87432,25.93989 56.87432,56.87435 0,30.92918 -24.94386,56.87432 -56.87432,56.87432 z m 219.50548,0 c -31.93049,0 -56.87435,-25.93987 -56.87435,-56.87432 0,-30.92919 25.93989,-56.87435 56.87435,-56.87435 30.92917,0 56.87432,25.93989 56.87432,56.87435 -0.005,30.92918 -24.94915,56.87432 -56.87432,56.87432 z"
+       id="path265"
+       style="stroke-width:1.32097" /></g></svg>

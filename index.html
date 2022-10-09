@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="text-bg-dark">
+  <body class="text-bg-dark" style="background-color: var(--bg-col) !important">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
       <div class="container">
         <a
@@ -88,16 +88,16 @@
         </div>
       </div>
     </div>
-    <div class="container text-bg-dark">
+    <div class="container">
       <div class="row py-5">
-        <div class="col">
+        <div class="col-md-6">
           <img
             src="https://images.unsplash.com/photo-1664975154056-7369ad5ed779?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
             alt=""
             style="width: 100%"
           />
         </div>
-        <div class="col">
+        <div class="col-md-6">
           <h2>Events</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
@@ -108,5 +108,110 @@
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid text-bg-dark py-4 border-3 border-danger">
+        <div class="row">
+          <div class="col">
+            <h3 class="text-center py-4">ACUNETIX 10.0</h3>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 py-3">
+                  <div
+                    class="map-container"
+                    style="
+                      position: relative;
+                      display: block;
+                      width: 100%;
+                      height: 280px;
+                      border-radius: var(--radius);
+                      overflow: hidden;
+                    "
+                  >
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.910758697476!2d73.81383121489428!3d18.62308328734934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b860d63876d1%3A0x9bccd5081468bc36!2sDr.%20D.%20Y.%20Patil%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1665319094709!5m2!1sen!2sin"
+                      width="100%"
+                      height="100%"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-6 py-3">
+                      <div
+                        class="card text-bg-dark"
+                        style="background-color: #454545 !important"
+                      >
+                        <div class="card-body">
+                          <h4 class="card-title text-center py-2">ACES</h4>
+                          <div class="row">
+                            <div class="col-6">
+                              <img
+                                src="./aces-logo-vector.svg"
+                                alt=""
+                                style="height: 112px"
+                              />
+                            </div>
+                            <div class="col-6">
+                              <a class="link-light d-block py-1" href="#"
+                                >LinkedIn</a
+                              >
+                              <a class="link-light d-block py-1" href="#"
+                                >Facebook</a
+                              >
+                              <a class="link-light d-block py-1" href="#"
+                                >Instagram</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 py-3">
+                      <div
+                        class="card text-bg-dark"
+                        style="background-color: #454545 !important"
+                      >
+                        <div class="card-body">
+                          <h4 class="card-title text-center py-2">CSI</h4>
+                          <div class="row">
+                            <div class="col-6">
+                              <img
+                                src="./csi1logo.png"
+                                alt=""
+                                style="height: 112px; padding-bottom: 6px"
+                              />
+                            </div>
+                            <div class="col-6">
+                              <a class="link-light d-block py-1" href="#"
+                                >LinkedIn</a
+                              >
+                              <a class="link-light d-block py-1" href="#"
+                                >Facebook</a
+                              >
+                              <a class="link-light d-block py-1" href="#"
+                                >Instagram</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-3" style="background-color: #111">
+        ©2022 Team Acunetix. All rights reserved.
+      </div>
+    </footer>
   </body>
 </html>

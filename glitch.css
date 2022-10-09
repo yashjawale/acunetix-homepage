@@ -1,6 +1,9 @@
 :root {
+  /* --primary: rgb(154, 68, 234); */
   --primary: hotpink;
   --secondary: blueviolet;
+  --radius: 8px;
+  --bg-col: rgb(40, 45, 47);
   /* --background: #131313; */
 }
 /* body {
@@ -10,10 +13,7 @@
 /* NAVBAR */
 nav {
   border-bottom: var(--primary) 0.1px solid;
-  /* box-shadow: 0 4px 8px 0 var(--primary), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; */
-  /* box-shadow: 0 6px 20px 0 #0ff !important; */
   z-index: 10;
-  /* transition: box-shadow ease; */
   animation: nav-glow 1.5s ease infinite alternate;
 }
 
@@ -149,30 +149,75 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin-top: 40px; */
 }
 
 /* BUTTON */
 .btn-glow {
-  /* --bs-btn-bg: var(--primary); */
   --bs-btn-color: var(--primary);
   --bs-btn-border-color: var(--primary);
   --bs-btn-hover-color: var(--primary);
   --bs-btn-hover-bg: var(--primary);
   --bs-btn-hover-border-color: var(--primary);
-  /* --bs-btn-focus-shadow-rgb: 13,110,253; */
   --bs-btn-active-color: var(--background);
   --bs-btn-active-bg: var(--primary);
   --bs-btn-active-border-color: var(--primary);
-  /* --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); */
-  /* --bs-btn-disabled-color: #0d6efd; */
-  /* --bs-btn-disabled-bg: transparent; */
-  /* --bs-btn-disabled-border-color: #0d6efd; */
-  /* --bs-gradient: none; */
 }
 
 .btn-glow:hover {
   color: var(--background);
   background: var(--primary);
   box-shadow: 0 0 24px var(--primary);
+}
+
+/* BREAKPOINT PREVIEW */
+body {
+  margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+}
+
+body::before {
+  content: "XS";
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* This box class is purely used for explaining how the bootstrap grid system works. */
+.box {
+  background-color: lightblue;
+  border: 1px solid blue;
+  min-height: 50px;
+  font-size: 2rem;
+}
+
+@media (min-width: 576px) {
+  body::before {
+    content: "SM";
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    content: "MD";
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    content: "LG";
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    content: "XL";
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    content: "XXL";
+  }
 }
